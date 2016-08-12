@@ -1,0 +1,31 @@
+body
+{
+    @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
+}   
+
+ul, li {
+    display: inline;
+    list-style: none;
+}
+
+li {
+    margin-right: 30px;
+}
+
+a {
+    text-transform: uppercase;
+    color: #555;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+a:hover {
+    color: #00dd55;
+    text-decoration: underline;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+}
