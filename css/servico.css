@@ -1,0 +1,25 @@
+.container {
+    display: block;
+}
+.row {
+    margin: 40px auto;
+    color: black;
+}
+.item {
+    display: inline-block;
+    /* margin: 40px auto; */
+    border: 1px solid #444;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 250px;
+    height: 400px;
+    padding: 10px;
+}
+h2 {
+    background-color: olivedrab;
+    padding: 5px;
+    color: white;
+    font-weight: 400;
+    margin-bottom: 100px;
+}

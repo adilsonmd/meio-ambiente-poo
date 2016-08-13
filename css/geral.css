@@ -2,7 +2,8 @@ body
 {
     @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
 
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Open Sans', Arial, sans-serif;
+    color: black;
 }   
 
 ul, li {
@@ -31,7 +32,11 @@ a:hover {
     height: 100px;
     max-height: 100px;
     margin-bottom: 10px;
-    background-color: #ddd;
+    background-color: #fff;
+}
+.logo {
+	background-image: "/../img/logo.jpg";
+	background-size: auto;
 }
 
 nav {
@@ -46,7 +51,6 @@ h1 {
 
 .container {
     background-color: white;
-    color: white;
 }
 
 .carrousel {
