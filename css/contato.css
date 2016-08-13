@@ -1,11 +1,82 @@
-body {
-	font-family: Helvetica, Arial, sans-serif;
-	font-size: 14px;
-	font-weight: 500;
+legend {
+   position: relative;
+   padding-left: 2px;
+   padding-right: 2px;
+   border: none;
+   text-align: left;
+   margin-bottom: 32px;
+   font-size: 25px;
 }
 
-input, label {
-	font-size: 16px;
-	padding: 7px;
+fieldset
+{
+	text-align:left;
+	position: relative;
+	height:100%;
+	width:900px;
+	border-color: transparent;
+	margin-left: 200px;
+	margin-top: 90px;
+
 }
 
+label, input,textarea{
+	margin-left: 20px;
+	margin-top: 5px;
+	padding: 10px;
+	border-radius: 4px solid #777777;
+	width: 200px;
+}
+
+body{
+	color: #909090;
+
+}
+
+textarea{
+	width: 505px;
+	resize:none;
+}
+
+
+.nome{
+	float:left;
+	
+}
+
+
+.email{
+	float:right;
+	margin-right: 350px;
+
+}
+
+.telefone{
+	float:left;
+	clear: both; 
+}
+
+.assunto{
+	float: right;
+	margin-right: 350px;
+}
+
+.mensagem{
+	float: left;
+	clear: both; 
+}
+input[type="button"]{
+	margin-right: 610px;
+}
+
+
+.conteudo{
+	float:right;
+	margin-top: -485px;
+	margin-right: 500px;
+}
+
+.contato{
+	font-size: 25px;
+	margin-bottom: 25px;
+}
