@@ -15,7 +15,7 @@ fieldset
 	height:100%;
 	width:900px;
 	border-color: transparent;
-	margin-left: 200px;
+	margin-left: 300px;
 	margin-top: 90px;
 
 }
@@ -73,7 +73,7 @@ input[type="button"]{
 .conteudo{
 	float:right;
 	margin-top: -485px;
-	margin-right: 500px;
+	margin-right: 400px;
 }
 
 .contato{
