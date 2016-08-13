@@ -22,19 +22,45 @@
             </ul>
         </nav>
 
-        <div class="form-container">
-            <form action="#" method="POST">
-                <label for="txtNome">Nome completo</label><br>
-                <input type="text" id="txtNome" placeholder="Nome" /> <br>
+        <form>
+  <fieldset>
+    <legend>Entre em contato conosco</legend>
+           <div class="nome">
+                <label for="txtNome">Nome<font color="red">*</font></label><br>
+                <input type="text" id="txtNome"/> 
+            </div>
 
-                <label for="txtEmail">E-mail</label> <br>
-                <input type="email" id="txtEmail" placeholder="exemplo@email.com" /> <br> <br>
+            <div class="email">
+                <label for="txtEmail">E-mail<font color="red">*</font></label><br>
+                <input type="email" id="txtEmail"/> <br> <br>
+            </div>
 
-                <label for="txaComentario">Comentário</label> <br>
-                <textarea rows="4" cols="" id="txaComentario"></textarea> <br><br>
+            <div class="telefone">
+                 <label for="txtTel">Telefone</label><br>
+                <input type="telefone" id="txtTel"/> <br> <br>
+            </div>
 
+            <div class="assunto">
+                 <label for="txtAs">Assunto<font color="red">*</font></label><br>
+                <input type="assunto" id="txtAs"/> <br> <br>
+            </div>
+
+            <div class="mensagem">
+                <label for="txtComent">Comentário<font color="red">*</font></label> <br>
+                <textarea rows="9" cols="" id="txaComentario"></textarea> <br><br>
+            </div>
                 <input type="button" name="btEnviar" value="Enviar" />
-            </form>
+             </fieldset>
+</form>
+
+ <div class="conteudo">
+        <div class="contato">Contato</div>
+        <img src="img/local.png" width="20px">
+            Rua João Castro, 1425 <br>
+        <img src="img/telefone.png" width="15px">
+            (11) 95024-4921 | (13) 98123-8680 <br>
+        <img src="img/email.png" width="20px">
+            contato@liminize.com
         </div>
     </body>
 </html>
