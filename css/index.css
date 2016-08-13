@@ -1,25 +1,30 @@
 .capa{
-	margin-left: 25px;
-	margin-top: 20px;
+	margin: 20px auto;
+	background-image: url("../img/natureza.jpg");
+	background-repeat: no-repeat;
+	width: 97%;
+	max-height: 600px;
+	max-width: 1360px;
+	border: 1px solid black
 }
 
 
 .transparencia {
-    margin: 440px;
-    width: 680px;
-    border: 1px solid black;
+	position: inherit;
+    margin-left: 630px;
+	margin-top: 440px;
+    max-width: 680px;
+    border: 1px solid #333;
 	background-color: rgba(255,255,255,0.7);
-	margin-left: 860px;
-
 
 }
 
 .transparencia p {
 	font-size: 20px;
 	text-align: right;
-	font-family:Verdana;
+	font-family: Verdana, Arial, sans-serif;
+	font-weight: 600;
     margin: 5%;
-    font-weight: bold;
 
 }
 
