@@ -5,11 +5,13 @@
 	width: 97%;
 	max-height: 700px;
 	max-width: 1360px;
-	border: 1px solid black
+	border: 1px solid black;
+	
 }
 
 
 .transparencia {
+	margin: 150px;
 	position: inherit;
     margin-left: 630px;
 	margin-top: 200px;
