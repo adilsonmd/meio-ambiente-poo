@@ -8,7 +8,6 @@
 }
 
 .sobre{
-	float: right;
 	margin-right: 200px;
 	margin-top:90px;
 	width: 400px;
@@ -35,12 +34,12 @@ h3 {
 .container {
 	display: block;
 }
-.item-container {
+.row {
 	display: inline-block;
 	margin 10px auto;
 }
 .item {
-	display: inline-block;
+	display: block;
 	max-width: 250px;
 	padding: 12px;
 	font-size: 18px;
