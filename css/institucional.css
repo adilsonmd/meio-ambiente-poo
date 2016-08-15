@@ -25,45 +25,12 @@ h2{
 	margin-bottom: -80px;
 }
 
-.missao-empresa{
-	width: 370px;
-	padding: 2px;
-	font-size: 25px;
-	border: 1px solid black;
-	border-radius: 5px 5px;
-	margin: auto;
-	margin-top: 122px;
-	float:left;
-	margin-left: -300px;
-}
-.missao-empresa p, .missao-empresa h2{
-	color: #FFFFFF;
-	text-align: center;
-}
-
-
-.promover{
-	width: 200px;
-	padding: 10px;
-	background-color: #00BFFF;
-	font-size: 25px;
-	border: 1px solid black;
-	border-radius: 5px 5px;
-	margin: auto;
-	margin-top: 122px;
-	float:right;
-	text-align: center;
-	color: #FFFFFF;
-
-	margin-right: 80px;
-}
-
 h3 {
 	text-align: center;
-    background-color: #58ACFA;
-    padding: 5px;
-    color: white;
-    margin-bottom: 70px;
+	background-color: #58ACFA;
+	padding: 5px;
+	color: white;
+	margin-bottom: 70px;
 }
 
 .t1{
