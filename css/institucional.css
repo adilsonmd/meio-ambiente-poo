@@ -2,14 +2,14 @@
 	border-radius: 20px;
 	margin-top: 70px;
 	max-width:300px;
-    width: auto;
+    width: 80%;
     margin-left: 40px;
     float:left;
 }
 
 .sobre{
 	float: right;
-	margin-right:200px;
+	margin-right: 200px;
 	margin-top:90px;
 	width: 400px;
 	padding: 10px;
@@ -42,7 +42,7 @@ h3 {
 	font-size: 18px;
 	border: 1px solid black;
 	border-radius: 5px 5px;
-	margin-top: 350px;
+	margin-top: 20px;
 	margin-left: 20px;
 	text-align: center;
 }
