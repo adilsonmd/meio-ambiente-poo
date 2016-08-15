@@ -1,0 +1,9 @@
+.container {
+    border: 1px solid #ddd;
+    margin: 10px auto;
+    padding: 5px;
+}
+
+.container li {
+    padding-left: 40px;
+}
