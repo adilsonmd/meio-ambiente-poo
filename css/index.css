@@ -6,7 +6,6 @@
 	max-height: 700px;
 	max-width: 1360px;
 	border: 1px solid black;
-	
 }
 
 
@@ -22,18 +21,18 @@
 .transparencia p {
 	font-size: 20px;
 	text-align: right;
-	font-family: Verdana, Arial, sans-serif;
+	font-family: Arial, sans-serif;
 	font-weight: 600;
     margin: 5%;
 
 }
 
 .missao-empresa{
-	max-width: 670px;
+	max-width: 400px;
 	padding: 2px;
 	background-color: #00B606;
 	font-size: 14px;
-	border: 1px solid black;
+	border: 1px solid #ddd;
 	border-radius: 60px 20px;
 	margin: 20px auto;
 	float: left;
@@ -62,7 +61,6 @@
 	margin: 20px auto;
 	float:right;
 	text-align: center;
-	margin-right: 80px;
 	color: #FFFFFF;
 
 }
