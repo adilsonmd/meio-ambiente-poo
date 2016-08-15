@@ -5,10 +5,6 @@
     margin: 40px auto;
     color: black;
 }
-.item-container {
-    display: block;
-    margin 10px auto;
-}
 .item {
     display: inline-block;
     /* margin: 40px auto; */
