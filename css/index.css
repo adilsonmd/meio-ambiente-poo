@@ -10,7 +10,8 @@
 
 
 .transparencia {
-	margin-left: 670px;
+	position: inherit;
+	margin-right: 0px;
 	margin-top: 420px;
 	max-width: 650px;
 	min-width: 300px;
@@ -24,7 +25,7 @@
 	text-align: right;
 	font-family: Arial, sans-serif;
 	font-weight: 600;
-    margin: 5%;
+	margin: 5%;
 
 }
 
@@ -53,7 +54,7 @@
 }
 
 .impacto img {
-    max-width: 256px;
+   	max-width: 316px;
 }
 
 .promover{
