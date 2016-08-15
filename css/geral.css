@@ -1,84 +1,66 @@
-legend {
-   position: relative;
-   padding-left: 2px;
-   padding-right: 2px;
-   border: none;
-   text-align: left;
-   margin-bottom: 32px;
-   font-size: 25px;
-   color: #0B3B17;
-}
-
-fieldset
+body
 {
-	text-align:left;
-	position: relative;
-	height:100%;
-	width:900px;
-	border-color: transparent;
-	margin-left: 210px;
-	margin-top: 55px;
+    @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
 
+    font-family: 'Open Sans', Arial, sans-serif;
+    color: black;
+}   
+.logo {
+    height: 100px;
+    max-height: 100px;
+    margin-bottom: 10px;
+    background-color: #fff;
+}
+.logo img{
+    max-height: 100px;
+    justify-content: left;
 }
 
-label, input,textarea{
-	margin-left: 20px;
-	margin-top: 5px;
-	padding: 10px;
-	border-radius: 4px solid #777777;
-	width: 200px;
+ul, li {
+    display: inline;
+    list-style: none;
+    margin: 0 auto;
 }
 
-body{
-	color: #909090;
-
+li {
+    margin-right: 30px;
 }
 
-textarea{
-	width: 505px;
-	resize:none;
+a {
+    text-transform: uppercase;
+    color: #555;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
 }
 
-
-.nome{
-	float:left;
-	
+a:hover {
+    border-bottom: 2px solid #00dd55;
 }
 
-
-.email{
-	float:right;
-	margin-right: 350px;
-
+nav {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
 }
 
-.telefone{
-	float:left;
-	clear: both; 
+h1 {
+    font-family: 'Open Sans', sans-serif;
 }
 
-.assunto{
-	float: right;
-	margin-right: 350px;
+.container {
+    background-color: white;
 }
 
-.mensagem{
-	float: left;
-	clear: both; 
-}
-input[type="button"]{
-	margin-right: 610px;
-}
-
-
-.conteudo{
-	float:right;
-	margin-top: -425px;
-	margin-right: 215px;
-}
-
-.contato{
-	color: #0B3B17;
-	font-size: 25px;
-	margin-bottom: 25px;
+footer > img {
+    display: block;
+    position: relative;
+    left: 0px;
+    bottom: 0px;
+    max-height: 350px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    
 }
