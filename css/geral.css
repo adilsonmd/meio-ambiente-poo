@@ -1,66 +1,84 @@
-body
+legend {
+   position: relative;
+   padding-left: 2px;
+   padding-right: 2px;
+   border: none;
+   text-align: left;
+   margin-bottom: 32px;
+   font-size: 25px;
+   color: #0B3B17;
+}
+
+fieldset
 {
-    @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+	text-align:left;
+	position: relative;
+	height:100%;
+	width:900px;
+	border-color: transparent;
+	margin-left: 210px;
+	margin-top: 55px;
 
-    font-family: 'Open Sans', Arial, sans-serif;
-    color: black;
-}   
-.logo {
-    height: 100px;
-    max-height: 100px;
-    margin-bottom: 10px;
-    background-color: #fff;
-}
-.logo img{
-    max-height: 100px;
-    justify-content: left;
 }
 
-ul, li {
-    display: inline;
-    list-style: none;
-    margin: 0 auto;
+label, input,textarea{
+	margin-left: 20px;
+	margin-top: 5px;
+	padding: 10px;
+	border-radius: 4px solid #777777;
+	width: 200px;
 }
 
-li {
-    margin-right: 30px;
+body{
+	color: #909090;
+
 }
 
-a {
-    text-transform: uppercase;
-    color: #555;
-    font-size: 18px;
-    font-weight: 400;
-    text-decoration: none;
+textarea{
+	width: 505px;
+	resize:none;
 }
 
-a:hover {
-    border-bottom: 2px solid #00dd55;
+
+.nome{
+	float:left;
+	
 }
 
-nav {
-    display: block;
-    margin: 0 auto;
-    text-align: center;
+
+.email{
+	float:right;
+	margin-right: 350px;
+
 }
 
-h1 {
-    font-family: 'Open Sans', sans-serif;
+.telefone{
+	float:left;
+	clear: both; 
 }
 
-.container {
-    background-color: white;
+.assunto{
+	float: right;
+	margin-right: 350px;
 }
 
-footer > img {
-    display: block;
-    position: relative;
-    left: 0px;
-    bottom: 0px;
-    max-height: 350px;
-    width: 100%;
-    margin: 0 auto;
-    background-color: #fff;
-    background-repeat: no-repeat;
-    
+.mensagem{
+	float: left;
+	clear: both; 
+}
+input[type="button"]{
+	margin-right: 610px;
+}
+
+
+.conteudo{
+	float:right;
+	margin-top: -425px;
+	margin-right: 215px;
+}
+
+.contato{
+	color: #0B3B17;
+	font-size: 25px;
+	margin-bottom: 25px;
 }
