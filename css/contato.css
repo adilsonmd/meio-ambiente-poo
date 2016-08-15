@@ -6,6 +6,7 @@ legend {
    text-align: left;
    margin-bottom: 32px;
    font-size: 25px;
+   color: #0B3B17;
 }
 
 fieldset
@@ -15,8 +16,8 @@ fieldset
 	height:100%;
 	width:900px;
 	border-color: transparent;
-	margin-left: 300px;
-	margin-top: 90px;
+	margin-left: 210px;
+	margin-top: 55px;
 
 }
 
@@ -72,11 +73,12 @@ input[type="button"]{
 
 .conteudo{
 	float:right;
-	margin-top: -485px;
-	margin-right: 100px;
+	margin-top: -425px;
+	margin-right: 215px;
 }
 
 .contato{
+	color: #0B3B17;
 	font-size: 25px;
 	margin-bottom: 25px;
 }
