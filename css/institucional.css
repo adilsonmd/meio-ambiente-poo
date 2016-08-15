@@ -35,7 +35,11 @@ h3 {
 .container {
 	display: block;
 }
-.t1{
+.item-container {
+	display: inline-block;
+	margin 10px auto;
+}
+.item {
 	display: inline-block;
 	max-width: 250px;
 	padding: 12px;
