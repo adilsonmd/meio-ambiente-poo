@@ -13,13 +13,18 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     width: 250px;
-    height: 400px;
+    height: 300px;
     padding: 10px;
 }
+
 h2 {
-    background-color: olivedrab;
+    background-color: #58ACFA;
     padding: 5px;
     color: white;
-    font-weight: 400;
-    margin-bottom: 100px;
+    margin-bottom: 70px;
+}
+
+p{
+    font-size: 20px;
+
 }
