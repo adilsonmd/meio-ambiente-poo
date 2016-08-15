@@ -1,27 +1,30 @@
+.container {
+	display: block;
+}
 .imagem{
 	border-radius: 20px;
 	margin-top: 70px;
-	max-width:300px;
-    width: 80%;
-    margin-left: 40px;
-    float:left;
+	max-width: 300px;
+	width: 80%;
+	margin-left: 20px;
+	float:left;
 }
 
 .sobre{
-	margin-right: 200px;
-	margin-top:90px;
+	margin-left: 70px;
+	margin-top:70px;
 	width: 400px;
 	padding: 10px;
 	background-color:#F2F2F2;
 	font-size: 16px;
 	border-radius: 5px 5px;
-	width: 700px;
+	max-width: 700px;
 }
 
 h2{
-	margin-left: 410px;
+	margin-left: 400px;
 	margin-top: 50px;
-	margin-bottom: -80px;
+	<!-- margin-bottom: -80px; -->
 }
 
 h3 {
@@ -31,15 +34,13 @@ h3 {
 	color: white;
 	margin-bottom: 70px;
 }
-.container {
-	display: block;
-}
+
 .row {
 	display: inline-block;
 	margin 10px auto;
 }
 .item {
-	display: block;
+	display: inline-block;
 	max-width: 250px;
 	padding: 12px;
 	font-size: 18px;
