@@ -32,7 +32,7 @@
 	max-width: 670px;
 	padding: 2px;
 	background-color: #00B606;
-	font-size: 22px;
+	font-size: 16px;
 	border: 1px solid black;
 	border-radius: 60px 20px;
 	margin: auto;
@@ -59,7 +59,7 @@
 	width: 400px;
 	padding: 10px;
 	background-color: #00BFFF;
-	font-size: 25px;
+	font-size: 16px;
 	border: 1px solid black;
 	border-radius: 20px 60px;
 	margin: auto;
@@ -67,6 +67,8 @@
 	float:right;
 	text-align: center;
 	margin-right: 80px;
+	color: #FFFFFF;
+
 }
 
 .texto{
@@ -76,7 +78,7 @@
 	margin: auto;	
 	text-align: center;
 	margin-top: 24px;
-	font-size: 25px;
+	font-size: 18px;
 	padding: 20px;
 	margin-bottom: 40px;
 }
