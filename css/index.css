@@ -36,8 +36,11 @@
 	border-radius: 60px 20px;
 	margin: auto;
 	margin-top: 22px;
+	float:left;
+	margin-left: 70px;
 
 }
+
 .missao-empresa p, .missao-empresa h2{
 	color: #FFFFFF;
 	padding: 3px;
@@ -47,4 +50,36 @@
 .impacto{
 	text-align: center;
 	margin-top: 24px;
+}
+
+
+
+.promover{
+	width: 500px;
+	padding: 2px;
+	background-color: #00BFFF;
+	font-size: 25px;
+	border: 1px solid black;
+	border-radius: 20px 60px;
+	margin: auto;
+	margin-top: 22px;
+	float:right;
+	text-align: center;
+	margin-right: 100px;
+}
+
+.texto{
+	border-radius: 20px 20px;
+	background-color: #FAFAFA;
+	width: 1000px;
+	margin: auto;	
+	text-align: center;
+	margin-top: 24px;
+	font-size: 25px;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+hr{
+	width: 400px;
 }
