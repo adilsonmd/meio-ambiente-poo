@@ -1,21 +1,21 @@
 .capa{
-	margin: 20px auto;
+	margin: 15px auto;
 	background-image: url("../img/natureza.jpg");
 	background-repeat: no-repeat;
 	width: 97%;
 	max-height: 700px;
 	max-width: 1360px;
 	border: 1px solid black;
+	float: none;
 }
 
 
 .transparencia {
-	position: inherit;
-	margin-right: 0px;
+
 	margin-top: 420px;
 	max-width: 650px;
 	min-width: 300px;
-    	border: 1px solid #333;
+	border: 1px solid #333;
 	background-color: rgba(255,255,255,0.7);
 
 }
@@ -36,9 +36,8 @@
 	font-size: 14px;
 	border: 1px solid #ddd;
 	border-radius: 60px 20px;
-	margin: 20px auto;
-	float: left;
-	<!-- margin-left: 100px; -->
+	/* float: left;
+	<!-- margin-left: 100px; --> */
 
 }
 
@@ -58,14 +57,13 @@
 }
 
 .promover{
+	margin-left: 30px;
 	max-width: 400px;
 	padding: 10px;
 	background-color: #00BFFF;
 	font-size: 16px;
-	border: 1px solid black;
+	border: 1px solid #ddd;
 	border-radius: 20px 60px;
-	margin: 20px auto;
-	float:right;
 	text-align: center;
 	color: #FFFFFF;
 
