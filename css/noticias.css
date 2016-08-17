@@ -4,6 +4,8 @@ div.box {
 	float: left;
 	margin-left: 90px;
 	width: 218px;
+	border: 1px solid #ddd;
+	padding: 3px;
 }
 
 div.box-last {
