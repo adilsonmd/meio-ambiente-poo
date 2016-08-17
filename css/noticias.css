@@ -11,6 +11,11 @@ div.box-last {
 	float: center;
 }
 
+.container_noticias {
+    text-align: center;
+    background: transparent;
+}
+
 #pagebot {
 	padding-top: 40px;
 	float: center;
