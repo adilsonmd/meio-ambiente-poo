@@ -26,6 +26,18 @@ li {
     margin-right: 30px;
 }
 
+a {
+    text-transform: uppercase;
+    color: #555;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+a:hover {
+    border-bottom: 2px solid #00dd55;
+}
+
 nav ul a {
     text-transform: uppercase;
     color: #555;
