@@ -1,0 +1,50 @@
+
+
+div.box {
+	float: left;
+	margin-left: 90px;
+	width: 218px;
+}
+
+div.box-last {
+	margin: 0;
+	float: center;
+}
+
+#pagebot {
+	padding-top: 40px;
+	float: center;
+}
+
+#pagebot h2 {
+	font-size: 18px;
+	font-family: "Trebuchet MS";
+	color: #000;
+	margin-bottom: 24px;
+}
+
+
+.clearfix:after {
+	clear: both;
+	display: block;
+	content: ".";
+	height: 0;
+	visibility: hidden;
+}
+
+* html > body .clearfix {
+	width: 100%;
+	display: block;
+}
+
+* html .clearfix {
+	height: 1%;
+}
+
+#mainwrap {
+	font-size: 1.2em;
+	line-height: 160%;
+	min-height: 100%;
+	position: relative;
+
+}
