@@ -55,3 +55,12 @@ div.box-last {
 	position: relative;
 
 }
+.row {
+  padding: 10px;
+  padding-bottom: 20px;
+  margin: 10px auto;
+}
+.img-rounded {
+	max-width: 150px;
+	max-height: 100px; 
+}
